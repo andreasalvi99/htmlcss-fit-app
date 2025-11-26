@@ -304,6 +304,14 @@ body {
 	content: "⚡"
 }
 
+/* Seventh Task */
+
+.goal-input-group > select:focus,input:focus {
+	box-shadow: 5px 5px blue;
+	border: 1px solid blue;
+}
+
+
 
 
 
