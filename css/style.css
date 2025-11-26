@@ -43,6 +43,7 @@ body {
 	border-radius: 12px;
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 	text-align: center;
+	transition: transform 0.2s ease;
 }
 
 .stat-number {
@@ -167,6 +168,7 @@ body {
 	border: 1px solid #ddd;
 	border-radius: 6px;
 	font-size: 1rem;
+	transition: transform 0.2s ease;
 }
 
 .save-btn {
@@ -179,6 +181,7 @@ body {
 	cursor: pointer;
 	width: 100%;
 	margin-top: 15px;
+	transition: transform 0.2s ease;
 }
 
 /* Progress Bar */
@@ -225,6 +228,7 @@ body {
 	width: 100%;
 	max-width: 500px;
 	display: flex;
+	transition: transform 0.2s ease;
 }
 
 .nav-item {
@@ -352,16 +356,20 @@ body {
 
 /* 13th Task */
 
-p::before {
+.quote-box > p::before {
 	content: "″";
 	opacity: 0.2;
-	font-size: 30px;
+	font-size: 40px;
+	position: absolute;
+	transform: translate(-120%, -22%);
 }
 
-p::after {
+.quote-box > p::after {
 	content: "″";
 	opacity: 0.2;
-	font-size: 30px;
+	font-size: 40px;
+	position: absolute;
+	transform: translate(631%, -45%);
 }
 
 
