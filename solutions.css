@@ -1,0 +1,6 @@
+/* First solution */
+
+.stats-grid:first-child::before{
+    content:"🔥"
+}
+

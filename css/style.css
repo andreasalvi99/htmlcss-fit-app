@@ -263,3 +263,10 @@ body {
 .bottom-spacer {
 	height: 80px;
 }
+
+/* Firts Task */
+
+.stats-grid:first-child::before{
+    content:"🔥"
+}
+
