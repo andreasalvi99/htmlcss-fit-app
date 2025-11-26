@@ -311,6 +311,13 @@ body {
 	border: 1px solid blue;
 }
 
+/* Ninth Task */
+
+.save-btn:hover {
+	transform: scale(1.02);
+	box-shadow: 5px 5px rgb(33, 33, 204);
+	background-color: #3952c3;
+}
 
 
 
