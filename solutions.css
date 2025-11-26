@@ -32,3 +32,9 @@
 	border-left: 5px solid green;
 	background-color: rgb(224, 252, 224);
 }
+
+/* Sixth Task */
+
+.exercise-item:nth-child(even)::before {
+	content: "⚡"
+}
