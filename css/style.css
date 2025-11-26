@@ -272,15 +272,23 @@ body {
 
 /* Second task */
 
-/* Third task */
+/* Third Task */
 
 .stats-grid:hover{
 	transform: scale(1.05);
-}
-
-.stats-grid:hover{
 	box-shadow: 5px 5px;
 }
+
+/* Fourth Task */
+
+.workout-plan:nth-of-type(2) {
+	border-left: 5px solid orange;
+	background-color: rgb(248, 248, 171);
+}
+ 
+
+
+
 
 
 
