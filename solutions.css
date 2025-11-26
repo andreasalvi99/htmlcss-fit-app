@@ -4,6 +4,17 @@
     content:"🔥"
 }
 
+/* Second task */
+
+.stats-grid:last-child {
+	background-image: linear-gradient(to right, rgb(49, 49, 239), rgb(122, 48, 232)
+	);
+}
+
+.stats-grid:last-child > .stat-number,.stat-label {
+	color: white;
+}
+
 /* Third task */
 
 .stats-grid:hover{

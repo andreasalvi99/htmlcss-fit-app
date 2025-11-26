@@ -272,6 +272,15 @@ body {
 
 /* Second task */
 
+.stats-grid:last-child {
+	background-image: linear-gradient(to right, rgb(49, 49, 239), rgb(122, 48, 232)
+	);
+}
+
+.stats-grid:last-child > .stat-number,.stat-label {
+	color: white;
+}
+
 /* Third Task */
 
 .stats-grid:hover{
@@ -318,6 +327,7 @@ body {
 	box-shadow: 5px 5px rgb(33, 33, 204);
 	background-color: #3952c3;
 }
+
 
 
 
