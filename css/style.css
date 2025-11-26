@@ -270,3 +270,19 @@ body {
     content:"🔥"
 }
 
+/* Second task */
+
+/* Third task */
+
+.stats-grid:hover{
+	transform: scale(1.05);
+}
+
+.stats-grid:hover{
+	box-shadow: 5px 5px;
+}
+
+
+
+
+
