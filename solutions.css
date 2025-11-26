@@ -86,3 +86,17 @@
 	color: rgb(70, 70, 231);
 	background-color: #1c3145;
 }
+
+/* 13th Task */
+
+p::before {
+	content: "″";
+	opacity: 0.2;
+	font-size: 30px;
+}
+
+p::after {
+	content: "″";
+	opacity: 0.2;
+	font-size: 30px;
+}
