@@ -328,6 +328,16 @@ body {
 	background-color: #3952c3;
 }
 
+/* Tenth Task */
+
+.progress-fill::after {
+	content: "65%";
+	color: white;
+	position: absolute;
+	transform: translate(1166%,-20%);
+	font-size: 10px;
+}
+
 
 
 
