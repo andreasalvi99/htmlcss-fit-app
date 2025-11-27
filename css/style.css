@@ -338,7 +338,9 @@ body {
 	content: "65%";
 	color: white;
 	position: absolute;
-	transform: translate(1166%,-20%);
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
 	font-size: 10px;
 }
 
@@ -349,7 +351,7 @@ body {
 	background-color: #1c3145;
 }
 
-.nav-item:first-child:any-link {
+.nav-item:first-child {
 	color: rgb(70, 70, 231);
 	background-color: #1c3145;
 }

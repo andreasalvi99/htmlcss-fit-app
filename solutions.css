@@ -82,7 +82,7 @@
 	background-color: #1c3145;
 }
 
-.nav-item:first-child:any-link {
+.nav-item:first-child {
 	color: rgb(70, 70, 231);
 	background-color: #1c3145;
 }
