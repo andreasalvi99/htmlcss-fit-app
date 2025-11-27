@@ -89,14 +89,18 @@
 
 /* 13th Task */
 
-p::before {
+.quote-box > p::before {
 	content: "″";
 	opacity: 0.2;
-	font-size: 30px;
+	font-size: 40px;
+	position: absolute;
+	transform: translate(-120%, -22%);
 }
 
-p::after {
+.quote-box > p::after {
 	content: "″";
 	opacity: 0.2;
-	font-size: 30px;
+	font-size: 40px;
+	position: absolute;
+	transform: translate(631%, -45%);
 }
